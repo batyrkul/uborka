@@ -1,0 +1,112 @@
+
+.obj{width:1000px; margin:0 auto;}
+#slide{width: 100%; height: 100vh; position: relative;background: linear-gradient(rgba(36, 36, 36, 0.94), rgba(36, 36, 36, 0.8)), url(/img/f1.jpg) right 0px top 0px / cover no-repeat;
+    background-size: cover; background-repeat: no-repeat; overflow: hidden; background-position: bottom;}
+header{position: absolute; top:0px; width: 100%; z-index: 9;     }
+.logo{width: 100%; padding: 10px 0 10px 0; margin-top: 15px;}
+.logo img{width: 100%}
+.callback{    margin-top: 30px;}
+.menu{        padding: 17px 0 0 0;    margin: 20px 0 0 0;    text-align: center;}
+.menu span{       margin-right: 30px;    color: white;    font-size: 18px;}
+.zastv{
+
+    margin: 0;
+    border: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    background: url(/img/11.png) left calc(50% + 376px) bottom 0px / 700px no-repeat;
+    z-index: 1;
+    display: block;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    right: 0;
+    overflow: hidden;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+}
+.zastavka{height: 130px;}
+.ovrbg{position: absolute; top:0px;
+    left: 0px; width: 100%; height: 100%;
+    background:url("/img/fn.png")center; background-repeat: no-repeat; }
+.txt-cont{color: white;    padding: 10px;    margin: 70px 0 0 60px;    border-left: 2px solid;}
+.txt-cont-1{padding: 5px;    font-size: 35px;    text-shadow: 1px 1px 2px black, 0 0 1em black;}
+.txt-cont-2{padding: 5px;    font-size: 50px;    font-weight: bold;    text-shadow: 1px 1px 2px black, 0 0 1em black;}
+#sec2{padding: 50px 0 50px 0; }
+#sec2 h2{border-left: 2px solid green; padding-left: 15px; text-transform: uppercase;
+}
+.thb-i-img{width: 100%;}
+.thb-i-img img{width: 100%}
+#sec2 a{color:black; text-decoration: none;}
+#sec2 a:hover{color:black; text-decoration: none;}
+.thb-i{    padding: 10px;    background-color: #f8f8f8;    margin: 15px 0 15px 0;
+    border: 1px solid #80808080; text-align: center;}
+.thb-i .thb-i-title{text-align: center; padding: 5px; text-transform: uppercase; font-weight: bold;}
+.price-title{text-align: center;}
+#sec3{padding: 50px 0 50px 0;background-image: linear-gradient(to bottom right, #e2e2e2, #dcdcdc)}
+
+#sec3 h2{text-transform: uppercase;    color: black;    }
+.onas-txt{    padding: 50px 0 50px 0;    color: black;    font-size: 18px;}
+.prim{display: -webkit-flex; /* Safari */    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;    flex-wrap: wrap;}
+.prim-item{       width: 45%;    padding: 15px;        background-color: rgba(69, 24, 24, 0.43);
+    border-radius: 10px;    position: relative; margin-right: 20px; margin-bottom: 20px; }
+.prim-item-2 {width: 50%; margin: 0 auto;}
+.prim-item .prim-item-3{    padding: 5px;    text-align: center;
+    color: white;    font-weight: bold;    font-size: 25px;}
+.prim-item .prim-item-4{text-align: center;    color: white;}
+.prim-item-4 span{font-size: 25px;}
+.conter{position: absolute; top:0px; font-size: 25px;
+    font-weight: bold;    color: white;    right: 10px; }
+#sec4{padding: 50px 0 50px 0;}
+.th-r-i2 {width: 100%; position: relative;}
+.th-r-i3 {    padding: 5px;    text-align: center;    font-weight: bold;}
+.th-r-i2 img{width: 100%}
+.th-r-i{padding: 10px; cursor: pointer; border: 1px dotted gray;}
+.th-r-i2 .item-label {
+    padding: 2px 5px;
+    border: none;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 5;
+    background: linear-gradient(to bottom right, #5540bf 0%, #ac9ef6 100%);
+    color: rgba(255, 255, 255, 0);
+    text-align: left;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    justify-content: flex-start;
+    text-decoration: none;
+    width: 50px;
+    min-height: 50px;
+    right: auto;
+    margin-left: -25px;
+    bottom: auto;
+    margin-top: -25px;
+    align-self: auto;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    border-radius: 250px;
+}
+.align-elem {
+    flex-grow: 1;
+    max-width: 100%;
+    color: white;
+    font-size: 25px;
+    padding: 1px 0 0 11px;
+}
+#sec5{padding: 50px 0 50px 0; position: relative; background-color: #5540bf;}
+#sec5 .secover{ position: absolute; width: 100%; height: 100%; top:0px; left: 0px;   background: url(/img/5.png) left 50% top 50% / auto auto no-repeat;}
+
+
+@media screen and (max-width: 800px) {
+
+}
